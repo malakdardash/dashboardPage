@@ -1,0 +1,78 @@
+.Calendar_text{
+    font-size: 8px;
+    font-weight: bolder;
+}
+.img_temperature{
+    background-color: rgba(194, 156, 255, 0.695);
+    border-radius: 5px;
+}
+.background_bell{
+    background-color: rgb(235, 235, 235);
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    padding-left: 7px;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(201, 200, 200);
+}
+.btn1{
+    background-color: rgb(103, 0, 198);
+    color: white;
+}
+.btn2{
+    background-color:rgba(194, 156, 255, 0.695) ;
+    color:  rgb(103, 0, 198);
+ 
+}
+.text-muted{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.card{
+ border: none;
+}
+
+.bar {
+    cursor: pointer;
+    display: inline-block;
+    border: solid thin rgba(255, 255, 255, .1);
+    padding: 3px;
+    padding-top: 15px;
+    background: transparent;
+    transition: background 1s;
+}
+  .icon{
+    color:rgba(194, 156, 255, 0.695) ;
+ 
+    
+  }
+
+
+.battery1{
+    font-size: 12px;
+}
+@media only screen and (max-width: 1300px) {
+   .nav2{
+    width: 0%;
+   }
+   .content1{
+    width: 100%;
+   }
+   
+}
+
+@media only screen and (max-width: 500px) {
+  
+    .flex_contaner{
+     padding-top: 500px;
+    }
+ }
+ 
